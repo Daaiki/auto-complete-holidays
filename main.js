@@ -20,7 +20,6 @@ function createSchedule() {
   // シートを取得
   const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
 
-  console.log(sheet)
   const initRow = 2
   const initCol = 1
   const rowRange = 2
